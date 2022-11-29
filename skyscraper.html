@@ -3,8 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
-        <title>Leaderboard</title>
+        <title>skyscraper</title>
         <style>
             @font-face {
                 font-family: 'Trade Gothic LT Std';
@@ -38,8 +37,8 @@
             }
             #leaderboard {
                 display: flex;
-                width: 718px;
-                height: 80px;
+                width: 158px;
+                height: 598px;
                 overflow: hidden;
                 position: relative;
                 border: 1px solid rgb(188 188 188);
@@ -92,31 +91,22 @@
             .page > a {
                 position: absolute;
                 text-decoration: none;
-                font-size: 7px;
+                font-size: 8px;
                 font-weight: bold;
+                z-index: 50;
             }
             .page > a:hover {
                 text-decoration: underline;
             }
             .page > .link1 {
-                left: 7px;
-                bottom: 2px;
+                left: 11px;
+                bottom: 48px;
                 color: rgb(76 132 70);
-                max-width: 40%;
-            }
-            .page:last-child {
-                background-color: #007A33;
-            }
-            .page:last-child > .link1 {
-                color: #FF9E1A;
-                bottom: 4px;
-                left: 9px;
-                width: 100%;
             }
             .page > .link2 {
                 position: absolute;
-                bottom: -2px;
-                right: 202px;
+                bottom: -4px;
+                right: 212px;
                 color: white;
                 font-weight: bold;
                 font-size: 8px;
@@ -157,34 +147,43 @@
     <body>
         <div id="leaderboard">
             <div id="pages">
-                <div data-duration="30" class="page initial">
-                    <img src="./assets/page1.svg" alt="page1">
-                    <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
+                <div
+                data-duration="40" class="page initial">
+                    <img style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;"
+                     src="./assets/skyscraper/bg1.png" alt="bg1">
+                    <img style="z-index: 50; position: relative;"
+                    src="./assets/skyscraper/page1.svg" alt="page1">
+                    <a style="width: 90%" target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
-                <div data-duration="70" class="page initial">
-                    <img src="./assets/page2.svg" alt="page2">
-                    <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
+                <div
+                data-duration="700000" class="page initial">
+                    <img style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                     src="./assets/skyscraper/bg2.png" alt="bg2">
+                    <img style="z-index: 50; position: relative;"
+                    src="./assets/skyscraper/page2.svg" alt="page2">
+                    <a
+                    target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
-                <div data-duration="40" class="page initial">
-                    <img src="./assets/page3.svg" alt="page3">
-                    <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
+                <div
+                data-duration="3000" class="page initial">
+                    <img style="position: absolute; top: 0; left: 0; width: 100%; height: 162px; object-fit: cover;"
+                     src="./assets/skyscraper/bg3.png" alt="bg3">
+                    <img style="z-index: 50; position: relative;"
+                    src="./assets/skyscraper/page3.svg" alt="page3">
+                    <a style="max-width: 60%"
+                    target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
-                <div data-duration="0" class="page initial">
-                    <img src="./assets/page4.svg" alt="page4">
-                    <a class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
-                    <p class="link2">
-                        <span>Please note that indications and availability may vary in different countries.</span>
-                        <br/>
-                        <span>Refer to your local  <a target="_blank" style="color: white" href="https://www.medicines.org.uk/emc/product/12835">Summary of Product Characteristics</a> for further details.</span>
-                        <img style="position: absolute; bottom: 0; right: -85px; height: 18px;" src="./assets/Astellas.svg"/>
-                    </p>
-                    <p class="link3">
-                        <span style="margin-top: 5px;">To find more about</span>
-                        <span>EVRENZO <a target="_blank" href="https://www.evrenzo.eu/">click here</a></span>
-                    </p>
+                <div data-duration="1000" class="page initial">
+                    <img style="z-index: 50; position: relative;" src="./assets/skyscraper/page4.svg" alt="page4">
+                    <a style="max-width: 60%"
+                    target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
+                    <span style="width: max-content; max-width: 250px; position: absolute; z-index: 60; top: 33%; left: 57%; transform: translate(-50%, -50%); color: white; font-family: 'Trade Gothic LT Std Extended';">To find out more about EVRENZO, <a href="">click here</a></span>
+                    <div style="gap: 5px; font-size: 8px; color: white; display: flex; flex-direction: column; position: absolute; top: 50%; left: 5%; z-index: 60;">
+                        <p style="margin: 0">Please note that indications and availability may vary in different countries.</p>
+                        <p style="margin: 0">Refer to your local <a style="color: white" target="_blank" href="https://www.medicines.org.uk/emc/product/12835">Summary of Product Characteristics</a> for further details.</p>
+                    </div>
                 </div>
             </div>
-            <img id="logo" src="./assets/Logo.svg" alt="Background">
         </div>
     </body>
     <script> 
