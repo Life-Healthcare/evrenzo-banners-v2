@@ -107,11 +107,51 @@
             .page:last-child {
                 background-color: #007A33;
             }
+            .page:last-child > img {
+                left: 0;
+                top: 0;
+                position: absolute;
+            }
             .page:last-child > .link1 {
                 color: #FF9E1A;
-                bottom: 4px;
-                left: 9px;
+                bottom: 3px;
+                left: 8px;
                 width: 100%;
+            }
+            .page:last-child > #link2 {
+                position: absolute;
+                right: 20.5%;
+                top: 6%;
+                text-decoration: none;
+                color: white;
+                font-size: 8px;
+                font-family: 'Trade Gothic LT Std Extended';
+                width: 150px;
+                text-align: center;
+            }
+            .page:last-child > #link3 {
+                position: absolute;
+                right: 16%;
+                top: 24%;
+                text-decoration: none;
+                color: white;
+                font-size: 8px;
+                border: 1px solid white;
+                padding: 1px;
+                width: 340px;
+            }
+            .page:last-child > #link3 a {
+                color: white;
+            }
+            .page:last-child > #link4 {
+                position: absolute;
+                right: 24.8%;
+                bottom: -1%;
+                text-decoration: none;
+                color: white;
+                font-size: 8px;
+                padding: 1px;
+                width: 280px;
             }
             .page > .link2 {
                 position: absolute;
@@ -125,8 +165,6 @@
                 color: white;
             }
             .page > .link3 {
-                background-color: #43B02A;
-                border-radius: 100px;
                 position: absolute;
                 top: 0;
                 right: 20%;
@@ -171,17 +209,17 @@
                 </div>
                 <div data-duration="0" class="page initial">
                     <img src="./assets/page4.svg" alt="page4">
-                    <a class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
-                    <p class="link2">
-                        <span>Please note that indications and availability may vary in different countries.</span>
-                        <br/>
-                        <span>Refer to your local  <a target="_blank" style="color: white" href="https://www.medicines.org.uk/emc/product/12835">Summary of Product Characteristics</a> for further details.</span>
-                        <img style="position: absolute; bottom: 0; right: -85px; height: 18px;" src="./assets/Astellas.svg"/>
+                    <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
+                    <a id="link2" href="https://www.evrenzo.eu/" target="_blank">To find out more about EVRENZO, <span style="text-decoration: underline">click here</span></a>
+                    <p id="link3">
+                        Adverse events should be reported.  Reporting forms and information can be found at 
+                        <a href="www.mhra.gov.uk/yellowcard">www.mhra.gov.uk/yellowcard</a> 
+                        or search for MHRA Yellow Card in the Google Play or Apple App Store. Adverse events should also be reported to Astellas Pharma Ltd. On 0800 783 5018.
                     </p>
-                    <p class="link3">
-                        <span style="margin-top: 5px;">To find more about</span>
-                        <span>EVRENZO <a target="_blank" href="https://www.evrenzo.eu/">click here</a></span>
-                    </p>
+                    <a id="link4" href="https://www.medicines.org.uk/emc/product/12835">
+                        Please note that indications and availability may vary in different countries.
+                        Refer to your local Summary of Product Characteristics for further details.
+                    </a>
                 </div>
             </div>
             <img id="logo" src="./assets/Logo.svg" alt="Background">
