@@ -8,9 +8,9 @@
         <style>
             @font-face {
                 font-family: 'Trade Gothic LT Std';
-                src: url('./assets/TradeGothicLTStd-Bd2.woff2') format('woff2'),
-                     url('./assets/TradeGothicLTStd-Bd2.woff') format('woff');
-                font-weight: bold;
+                src: url('./assets/TradeGothicLTStd.woff2') format('woff2'),
+                     url('./assets/TradeGothicLTStd.woff') format('woff');
+                font-weight: light;
                 font-style: normal;
                 font-display: swap;
             }
@@ -29,6 +29,11 @@
                 font-weight: bold;
                 font-style: normal;
                 font-display: swap;
+            }
+            h1 {
+                font-family: 'Trade Gothic LT Std Extended';
+                font-size: 12px;
+                margin-left: 7px;
             }
             body {
                 font-family: 'Trade Gothic LT Std';
@@ -107,51 +112,57 @@
             .page:last-child {
                 background-color: #007A33;
             }
-            .page:last-child > img {
-                left: 0;
-                top: 0;
-                position: absolute;
-            }
             .page:last-child > .link1 {
                 color: #FF9E1A;
                 bottom: 3px;
                 left: 8px;
                 width: 100%;
+                font-size: 8px;
             }
             .page:last-child > #link2 {
                 position: absolute;
-                right: 20.5%;
-                top: 6%;
+                background-color: #43B02A;
+                border-radius: 50px;
+                padding-top: 2px;
+                right: 17.5%;
+                top: 2%;
                 text-decoration: none;
                 color: white;
-                font-size: 8px;
+                font-size: 9px;
                 font-family: 'Trade Gothic LT Std Extended';
                 width: 150px;
+                height: 23px;
+                padding-left: 36.5px;
+                padding-right: 36.5px;
+                
                 text-align: center;
             }
             .page:last-child > #link3 {
                 position: absolute;
                 right: 16%;
-                top: 24%;
+                top: 28%;
+                font-weight: 'Trade Gothic LT Std';
+                font-weight: bold;
                 text-decoration: none;
                 color: white;
-                font-size: 8px;
+                font-size: 7px;
                 border: 1px solid white;
-                padding: 1px;
-                width: 340px;
+                padding-left: 4px;
+                padding-top: 2px;
+                width: 330px;
             }
             .page:last-child > #link3 a {
                 color: white;
             }
             .page:last-child > #link4 {
                 position: absolute;
-                right: 24.8%;
+                right: 29.2%;
                 bottom: -1%;
                 text-decoration: none;
                 color: white;
-                font-size: 8px;
+                font-size: 7px;
                 padding: 1px;
-                width: 280px;
+                width: 240px;
             }
             .page > .link2 {
                 position: absolute;
@@ -195,30 +206,41 @@
     <body>
         <div id="leaderboard">
             <div id="pages">
-                <div data-duration="3000" class="page initial">
+                <div data-duration="30" class="page initial">
                     <img src="./assets/page1.svg" alt="page1">
                     <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
-                <div data-duration="7000" class="page initial">
+                <div data-duration="70" class="page initial">
                     <img src="./assets/page2.svg" alt="page2">
                     <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
-                <div data-duration="4000" class="page initial">
+                <div data-duration="40" class="page initial">
                     <img src="./assets/page3.svg" alt="page3">
                     <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                 </div>
                 <div data-duration="0" class="page initial">
-                    <img src="./assets/page4.svg" alt="page4">
+                    <h1 style="color: white">EVRENZO: the convenience of an oral tablet<sup>1,2</sup></h1>
+                    <img style="width: 51px; height: 14px; position: absolute; bottom: 5%; right: 16.2%;"
+                    src="./assets/Astellas.svg" alt="Astellas">
+                    <p style="font-size: 8px; color: white; width: 240px; position: absolute; bottom: 4px; left: 8px">
+                        <span style="font-weight: 500; display: flex; flex-direction: column;">
+                            <span><b>1.</b> EVRENZO SmPC.</span>
+                            <span><b>2.</b> Akizawa T et al. J Am Soc Nephrol. 2020;31(7):1628–1639.</span>
+                        </span>
+                        <span style="font-weight: bold;">
+                            This advert is intended for UK and EU Healthcare Professionals and has been approved consistent with UK regulations
+                        </span>
+                    </p>
                     <a target="_blank" class="link1" href="https://dhgd52pup2eiv.cloudfront.net/23ffe42b-4e89-48e1-b8d8-08b726ed94c1/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5/dc4b6f4a-af07-441b-8ec9-c6b15b2f3ec5_source__v.pdf">Click here for UK Prescribing Information & Adverse Event Reporting</a>
                     <a id="link2" href="https://www.evrenzo.eu/" target="_blank">To find out more about EVRENZO, <span style="text-decoration: underline">click here</span></a>
                     <p id="link3">
                         Adverse events should be reported.  Reporting forms and information can be found at 
-                        <a href="www.mhra.gov.uk/yellowcard">www.mhra.gov.uk/yellowcard</a> 
+                        <a target="_blank" style="text-decoration: none;" href="www.mhra.gov.uk/yellowcard">www.mhra.gov.uk/yellowcard</a> 
                         or search for MHRA Yellow Card in the Google Play or Apple App Store. Adverse events should also be reported to Astellas Pharma Ltd. On 0800 783 5018.
                     </p>
-                    <a id="link4" href="https://www.medicines.org.uk/emc/product/12835">
+                    <a id="link4" href="https://www.medicines.org.uk/emc/product/12835" target="_blank">
                         Please note that indications and availability may vary in different countries.
-                        Refer to your local Summary of Product Characteristics for further details.
+                        Refer to your local <span style="text-decoration: underline">Summary of Product Characteristics</span> for further details.
                     </a>
                 </div>
             </div>
